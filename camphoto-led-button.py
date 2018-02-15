@@ -10,7 +10,7 @@ IMAGE_FILE = "/home/pi/Pictures/camera.jpg"
 OUTPUT_TEXT = "/home/pi/Pictures/output"
 TESS_PATH = "/usr/local/bin/"
 COMMAND = [TESS_PATH+"tesseract", IMAGE_FILE, OUTPUT_TEXT]
-SECS = 600
+SECS = 500
 
 def main():
     
